@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --verde:#00a149;
+    --blanco:#fff;
+    --rojo:#881014;
+    --oscuro:#000;
+    --titulos: 'Arima Madurai', cursive;
+    --parrafos: 'Mulish', sans-serif;
+}
+
+/*GLOBALES*/
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 95%;
+}
+
+h1,h2{
+    font-family: var(--titulos);
+}
+
+h3,h4,p,a{
+    font-family: var(--parrafos);
+}
+
+.verde{
+    color: var(--verde);
+}
+
+.rojo{
+    color: var(--rojo);
+}
+
+.oculto{
+    display: none;
+}
+
+/*HEADER*/
+.contenedor-navegacion{
+    background-color: var(--oscuro);
+}
+
+.contenido-navegacion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--blanco);
+    padding: .5rem;
+}
+
+.navegacion a{
+    text-decoration: none;
+    color: var(--blanco);
+}
+
+.logo{
+    
+}
+
+.menuhamburguesa span{
+    display: block;
+    background-color: var(--blanco);
+    width: 3.2rem;
+    height: .4rem;
+    margin-bottom: .3rem;
+}
